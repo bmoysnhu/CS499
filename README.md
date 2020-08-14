@@ -8,7 +8,7 @@ For Class CS499
 
 Summer Term
 
-### The three artifacts are
+### The three artifacts are:
 
 AnimalHabitats/Monitor
 
