@@ -8,3 +8,10 @@ For Class CS499
 
 Summer Term
 
+### The three artifacts are
+
+AnimalHabitats/Monitor
+
+LinkedList
+
+phonebook.sql
