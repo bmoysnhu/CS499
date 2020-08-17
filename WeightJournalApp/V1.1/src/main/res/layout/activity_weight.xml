@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d1c4e9"
+    tools:context=".WeightActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="170dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/weight_history"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="125dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/add_weight"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/gridLayout2"
+        android:layout_width="385dp"
+        android:layout_height="608dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addButton"
+        app:layout_constraintVertical_bias="0.0">
+
+        <EditText
+            android:id="@+id/weightEntry1"
+            android:layout_width="195dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/weight_entry"
+            android:textStyle="normal|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/delBt1"
+            android:layout_width="78dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/deleteButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/weightEntry1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/weightEntry2"
+            android:layout_width="195dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="44dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/weight_entry"
+            android:textStyle="normal|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/weightEntry1" />
+
+        <Button
+            android:id="@+id/delBt2"
+            android:layout_width="78dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="44dp"
+            android:text="@string/deleteButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toEndOf="@+id/weightEntry2"
+            app:layout_constraintTop_toTopOf="@+id/delBt1" />
+
+        <EditText
+            android:id="@+id/weightEntry3"
+            android:layout_width="195dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="44dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/weight_entry"
+            android:textStyle="normal|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/weightEntry2" />
+
+
+        <Button
+            android:id="@+id/delBt3"
+            android:layout_width="78dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="44dp"
+            android:text="@string/deleteButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toEndOf="@+id/weightEntry3"
+            app:layout_constraintTop_toTopOf="@+id/delBt2" />
+
+        <EditText
+            android:id="@+id/weightEntry4"
+            android:layout_width="195dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="44dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/weight_entry"
+            android:textStyle="normal|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/weightEntry3" />
+
+        <Button
+            android:id="@+id/delBt4"
+            android:layout_width="78dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="44dp"
+            android:text="@string/deleteButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toEndOf="@+id/weightEntry4"
+            app:layout_constraintTop_toTopOf="@+id/delBt3" />
+
+        <EditText
+            android:id="@+id/weightEntry5"
+            android:layout_width="195dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="44dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/weight_entry"
+            android:textStyle="normal|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/weightEntry4" />
+
+        <Button
+            android:id="@+id/delBt5"
+            android:layout_width="78dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="44dp"
+            android:text="@string/deleteButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toEndOf="@+id/weightEntry5"
+            app:layout_constraintTop_toTopOf="@+id/delBt4" />
+
+        <EditText
+            android:id="@+id/weightEntry6"
+            android:layout_width="195dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="44dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/weight_entry"
+            android:textStyle="normal|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/weightEntry5" />
+
+        <Button
+            android:id="@+id/delBt6"
+            android:layout_width="78dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="44dp"
+            android:text="@string/deleteButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toEndOf="@+id/weightEntry6"
+            app:layout_constraintTop_toTopOf="@+id/delBt5" />
+
+        <EditText
+            android:id="@+id/weightEntry7"
+            android:layout_width="195dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="44dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/weight_entry"
+            android:textStyle="normal|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/weightEntry6" />
+
+        <Button
+            android:id="@+id/delBt7"
+            android:layout_width="78dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="44dp"
+            android:text="@string/deleteButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toEndOf="@+id/weightEntry7"
+            app:layout_constraintTop_toTopOf="@+id/delBt6" />
+
+        <EditText
+            android:id="@+id/weightEntry8"
+            android:layout_width="195dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="44dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/weight_entry"
+            android:textStyle="normal|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/weightEntry7" />
+
+
+        <Button
+            android:id="@+id/delBt8"
+            android:layout_width="78dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="44dp"
+            android:text="@string/deleteButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toEndOf="@+id/weightEntry8"
+            app:layout_constraintTop_toTopOf="@+id/delBt7" />
+
+        <EditText
+            android:id="@+id/weightEntry9"
+            android:layout_width="195dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="44dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/weight_entry"
+            android:textStyle="normal|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/weightEntry8" />
+
+        <Button
+            android:id="@+id/delBt9"
+            android:layout_width="78dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="44dp"
+            android:text="@string/deleteButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toEndOf="@+id/weightEntry9"
+            app:layout_constraintTop_toTopOf="@+id/delBt8" />
+
+        <EditText
+            android:id="@+id/weightEntry10"
+            android:layout_width="195dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="44dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/weight_entry"
+            android:textStyle="normal|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/weightEntry9" />
+
+        <Button
+            android:id="@+id/delBt10"
+            android:layout_width="78dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="44dp"
+            android:text="@string/deleteButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toEndOf="@+id/weightEntry10"
+            app:layout_constraintTop_toTopOf="@+id/delBt9" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/SMS_Button"
+        android:layout_width="95dp"
+        android:layout_height="39dp"
+        android:text="SMS Alerts?"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
