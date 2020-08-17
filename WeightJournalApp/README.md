@@ -1,5 +1,7 @@
 # Ultimate Weight Journal 
 
+This app is in development. This app is the final for Southern New Hampshire Universty CS-360 Moblie Architect and Programming.
+
 The requirements and goals of this application was to create a login database that allowed the user to access their personal databases that stored their weights. This database would be displayed in a grid view for the user to easiuly create, delete, update, or read. The next requirement was to develop a permission request that would allow the application to send SMS notifications to the users mobile phone.
 
 The screens that were required to develop a successful UI was four different screens. The first was a login screen, second was a screen used to create an account, third was their users home page that stored the database for the weight data, fourth was the SMS permissions screen. The UI design kept users in mind by attempting to create a simple and easy to use UI. This creates a UI that is easy to learn and understand. This prevents extended use to learn the functions of each screen or features. I believe my designs were successful in the design phase because it clearly creates an easy to use and understand UI. However the functionality of the weight screen and create an account screen has some functionality issues.
