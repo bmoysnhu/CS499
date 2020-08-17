@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MoyBrandonWeightTracker</string>
+    <string name="weight_entry">(weight lbs)</string>
+    <string name="weight_history">Weight History</string>
+    <string name="deleteButton">Delete</string>
+    <string name="editButton">Edit</string>
+    <string name="add_weight">Add Weight</string>
+    />
+</resources>
